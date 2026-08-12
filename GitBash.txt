@@ -1,0 +1,56 @@
+Basic codes on Bash //
+
+1-Configurar seu nome e e-mail do Git:
+
+    Faça isso uma vez no computador:
+        git config --global user.name "LeonardoDonizetti"
+        git config --global user.email "seu-email@example.com"
+
+    Para conferir:
+        git config --global user.name
+        git config --global user.email
+
+2-Criar uma pasta para o projeto
+    No Git Bash:
+        mkdir meu-projeto
+        cd meu-projeto
+
+    Ou, se o projeto já existe:
+        cd caminho/da/pasta/do/projeto  (exemplo: cd ~/Desktop/sistema-atendimento)
+    
+3-iniciar o Git
+    git init (Isso cria a pasta oculta .git, que transforma seu projeto em um repositório Git local.)
+
+    Verificar:
+        git status
+
+4-Criar o repositório no GitHub
+        No GitHub, crie um New repository. 
+
+        Depois copie a URL do repositório.
+
+5-Conectar seu projeto local ao GitHub
+    Dentro da pasta do projeto:
+        git remote add origin https://github.com/LeonardoDonizetti/meu-projeto.git
+    
+    Verificar:
+        git remote -v
+
+6-Adicionar os arquivos
+    Para adicionar tudo:
+        git add .
+
+    Verifique o que será enviado:
+        git status
+
+7-Fazer o primeiro commit
+    git commit -m "feat: projeto inicial" (em aspas, colocar sua mensagem de commit)
+
+8-Definir a branch principal como main 
+    git branch -M main
+
+9-Fazer o primeiro push
+    git push -u origin main
+
+    Depois disso, normalmente você pode simplesmente usar:
+        git push
