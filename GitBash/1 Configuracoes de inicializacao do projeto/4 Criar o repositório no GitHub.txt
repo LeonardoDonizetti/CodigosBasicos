@@ -1,0 +1,2 @@
+No GitHub, crie um New repository. 
+Depois copie a URL do repositorio.

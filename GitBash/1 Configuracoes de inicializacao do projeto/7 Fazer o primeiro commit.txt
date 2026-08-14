@@ -1,0 +1,1 @@
+git commit -m "feat: projeto inicial" (em aspas, colocar sua mensagem de commit)

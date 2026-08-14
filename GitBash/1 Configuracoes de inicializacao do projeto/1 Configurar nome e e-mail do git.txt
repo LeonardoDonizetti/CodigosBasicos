@@ -1,0 +1,7 @@
+    Faça isso uma vez no computador:
+        git config --global user.name "LeonardoDonizetti"
+        git config --global user.email "seu-email@example.com"
+
+    Para conferir:
+        git config --global user.name
+        git config --global user.email

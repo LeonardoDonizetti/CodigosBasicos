@@ -1,0 +1,4 @@
+    git push -u origin main
+
+    Depois disso, normalmente você pode simplesmente usar:
+        git push

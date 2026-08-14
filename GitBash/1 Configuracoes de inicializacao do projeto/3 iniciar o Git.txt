@@ -1,0 +1,4 @@
+ git init (Isso cria a pasta oculta .git, que transforma seu projeto em um repositório Git local.)
+
+    Verificar:
+        git status

@@ -1,0 +1,5 @@
+Apos as configuracoes iniciais acima, qualquer projeto ja criado basta abrir o Bash direto na pasta e seguir somente esses comandos: 
+    git status
+    git add .
+    git commit -m "descreva o que você alterou"
+    git push

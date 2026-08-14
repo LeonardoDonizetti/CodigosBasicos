@@ -1,0 +1,3 @@
+Dentro da pasta do projeto:
+        git remote add origin https://github.com/LeonardoDonizetti/meu-projeto.git
+    

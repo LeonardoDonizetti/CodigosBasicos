@@ -1,0 +1,7 @@
+No Git Bash:
+        mkdir meu-projeto
+        cd meu-projeto
+
+    Ou, se o projeto já existe:
+        cd caminho/da/pasta/do/projeto  (exemplo: cd ~/Desktop/sistema-atendimento)
+    
